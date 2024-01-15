@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./images/img28.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    border: solid 0px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+}
+.head1{
+    border: solid 0px;
+    height: 100px;
+    width: 30%;
+}
+.head2{
+    border: solid 0px;
+    height: 100px;
+    width: 70%;
+}
+.head2 ul li a{
+    display: contents; 
+    
+  
+}
+ul li{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(245, 194, 203);
+    height: 30px;
+    text-align: center;
+    list-style: none;
+  
+}
+
+ul.item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end; 
+    margin-top: 40px;
+   
+}
+
+ul li a{
+    list-style-type: none;
+    color: black;
+}
+.head1 h2{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+    background-color: rgb(245, 194, 203);
+    border-radius: 20px;
+}
+.container{
+    border: solid 0px;
+    height: 400px;
+    width: 500px;
+    margin-left: 800px;
+    margin-top: 100px;
+    
+}
+.phone{
+   background-color: rgb(245, 194, 203);
+    border: solid 0px;
+    height: 70px;
+    width: 400px;
+    margin: 20px auto;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+
+}
+.email{
+    border: solid 0px;
+    height: 70px;
+    width: 400px;
+    margin: 20px auto;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(245, 194, 203);
+    display: flex;
+
+
+}
+.insta{
+    border: solid 0px;
+    height: 70px;
+    width: 400px;
+    margin: 20px auto;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(245, 194, 203);
+    display: flex;
+
+
+}
+.link{
+    border: solid 0px;
+    height: 70px;
+    width: 400px;
+    margin: 20px auto;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(245, 194, 203);
+    display: flex;
+
+
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+h3{
+    margin-top: 20px;
+}
+.link a{
+    color: black;
+    text-decoration: none;
+}
+.insta a{
+    color: black;
+    text-decoration: none;
+}
